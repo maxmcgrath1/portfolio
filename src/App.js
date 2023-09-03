@@ -10,6 +10,7 @@ function App() {
         "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SRzccZ8iRnfXTRYQk0jrqQHaGu%26pid%3DApi&f=1",
         "description": "A browser based blackjack game that utilizes HTML, CSS, and Javascript.";
       </div>
+      <hr />
     </div>
   );
 }
