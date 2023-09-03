@@ -11,6 +11,7 @@ function App() {
         "description": "A browser based blackjack game that utilizes HTML, CSS, and Javascript.";
       </div>
       <hr />
+      Projects should appear here
     </div>
   );
 }
