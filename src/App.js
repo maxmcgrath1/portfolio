@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className='projects'>
+      <div className="projects">
         name: "Blackjack",
         "live": "https://maxmcgrath1.github.io/Blackjack/",
         "git": "https://github.com/maxmcgrath1/Blackjack",
