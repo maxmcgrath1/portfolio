@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Blackjack",
+        "live": "https://maxmcgrath1.github.io/Blackjack/",
+        "git": "https://github.com/maxmcgrath1/Blackjack",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.SRzccZ8iRnfXTRYQk0jrqQHaGu%26pid%3DApi&f=1",
+        "description": "A browser based blackjack game that utilizes HTML, CSS, and Javascript."
+    },
+    {
+        "name": "Good Games",
+        "live": "https://ggood-ggames.netlify.app/",
+        "git": "https://github.com/maxmcgrath1/capstone_frontend",
+        "image": "https://i.imgur.com/PGcQ5He.png",
+        "description": "Good Games is a MERN stack website dedicated to playing games right in your browser. These games were built using react."
+    },
+    {
+        "name": "Fumblr",
+        "live": "https://fumblrv2.herokuapp.com/fumblr",
+        "git": "https://github.com/maxmcgrath1/fumblr",
+        "image": "https://drive.google.com/uc?export=download&id=1J8dk_FaIy3r1wiPmgL_rCYkajRK58kJt",
+        "description": "Fumblr is a full-stack MEN app collaborative project between myself and 2 others, where we made a Tumblr copycat to pay homage to the older version of it."
+    },
+    {
+        "name": "Wayfarer",
+        "live": "https://project-wayfarer.onrender.com/",
+        "git": "https://github.com/maxmcgrath1/Project3",
+        "image": "https://st2.depositphotos.com/3096625/9284/v/600/depositphotos_92842844-stock-illustration-monogram-letter-w-logo.jpg",
+        "description": "Wayfarer is a mock traveling blog where users can post about various cities they have been to. This project was also a 3-person collaboration, utilizing Django and Python."
+    }
+]
