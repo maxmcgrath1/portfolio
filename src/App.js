@@ -1,4 +1,5 @@
 import './App.css';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <hr />
       <hr />
       <h1 className ="projname">Blackjack</h1>
+      <hr />
+      <hr />
     </div>
   );
 }
