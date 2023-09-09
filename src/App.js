@@ -10,6 +10,7 @@ function App() {
       <h1 className ="projname">Blackjack</h1>
       <hr />
       <hr />
+      <Projects />
     </div>
   );
 }
