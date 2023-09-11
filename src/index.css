@@ -20,3 +20,15 @@
     --container-width-md: 85%;
     --container-width-sm: 90%;
 };
+
+html {
+    scroll-behavior: smooth;
+};
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    
+}
