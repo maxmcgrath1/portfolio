@@ -75,3 +75,8 @@ a {
     color: var(--color-primary);
     transition: var(--transition);
 }
+
+a:hover {
+    color: var(--color-white);
+}
+
