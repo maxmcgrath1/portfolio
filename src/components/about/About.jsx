@@ -20,7 +20,7 @@ const About = () => {
                         <article className='about__card'>
                             <h5>Experience</h5>
                             <small>2 Years Coding</small>
-                            <small></small>
+                            <small>30+ Projects Completed</small>
                         </article>
                     </div>
                 </div>
