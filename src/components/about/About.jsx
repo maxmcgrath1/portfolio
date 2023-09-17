@@ -21,6 +21,7 @@ const About = () => {
                             <h5>Experience</h5>
                             <small>2 Years Coding</small>
                             <small>30+ Projects Completed</small>
+                            <small>SQL and MongoDB</small>
                         </article>
                     </div>
                 </div>
