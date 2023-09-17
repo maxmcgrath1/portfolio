@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/headshot2.png'
+import {BsPersonWorkspace} from 'react-icons/bs'
 
 const About = () => {
     return (
@@ -18,6 +19,7 @@ const About = () => {
                 <div className="about__content">
                     <div className="about__cards">
                         <article className='about__card'>
+                            <BsPersonWorkspace/>
                             <h5>Experience</h5>
                             <small>2 Years Coding</small>
                             <small>30+ Projects Completed</small>
