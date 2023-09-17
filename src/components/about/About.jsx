@@ -2,6 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/headshot2.png'
 import {BsPersonWorkspace} from 'react-icons/bs'
+import {FaPeopleGroup} from 'react-icons/fa6'
 
 const About = () => {
     return (
@@ -12,21 +13,26 @@ const About = () => {
             <div className="container about__container">
                 <div className="about__me">
                     <div className="about__me-img">
-                        <img src={ME} alt="me" />
+                        <img src={ME} alt="headshot2" />
                     </div>
                 </div>
 
                 <div className="about__content">
                     <div className="about__cards">
                         <article className='about__card'>
-                            <BsPersonWorkspace/>
+                            <BsPersonWorkspace className='about__icon'/>
                             <h5>Experience</h5>
-                            <small>2 Years Coding</small>
-                            <small>30+ Projects Completed</small>
-                            <smal>Javascript and Python</smal>
-                            <small>SQL and MongoDB</small>
-                            <small>React</small>
-                            <small>CRUDable Apps</small>
+                            <small>2+ Years Coding</small>
+                        </article>
+                        <article className='about__card'>
+                            <BsPersonWorkspace className='about__icon'/>
+                            <h5>Projects</h5>
+                            <small>20+ Completed</small>
+                        </article>
+                        <article className='about__card'>
+                            <FaPeopleGroup className='about__icon'/>
+                            <h5>Clients</h5>
+                            <small>25+ Worldwide</small>
                         </article>
                     </div>
                 </div>
