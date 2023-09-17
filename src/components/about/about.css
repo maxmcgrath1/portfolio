@@ -30,7 +30,11 @@
     transform: rotate(0deg);
 }
 
-
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
 
 .about__card {
     background: var(--color-bg-variant);
