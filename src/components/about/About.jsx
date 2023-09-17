@@ -24,6 +24,7 @@ const About = () => {
                             <smal>Javascript and Python</smal>
                             <small>SQL and MongoDB</small>
                             <small>React</small>
+                            <small>CRUDable Apps</small>
                         </article>
                     </div>
                 </div>
