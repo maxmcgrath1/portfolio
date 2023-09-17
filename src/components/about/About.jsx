@@ -36,6 +36,11 @@ const About = () => {
                             <small>25+ Worldwide</small>
                         </article>
                     </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quod soluta expedita maxime fuga amet nobis deserunt cumque optio, voluptas nam dolorum quasi voluptates placeat culpa eligendi molestias praesentium asperiores!
+                    </p>
+
                 </div>
             </div>
         </section>
