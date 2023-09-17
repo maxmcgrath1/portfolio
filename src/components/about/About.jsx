@@ -23,6 +23,7 @@ const About = () => {
                             <small>30+ Projects Completed</small>
                             <smal>Javascript and Python</smal>
                             <small>SQL and MongoDB</small>
+                            <small>React</small>
                         </article>
                     </div>
                 </div>
