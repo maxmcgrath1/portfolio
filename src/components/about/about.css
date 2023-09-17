@@ -19,5 +19,13 @@
 }
 
 .about__me-img {
-    
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about__me-img:hover {
+    transform: rotate(0deg);
 }
