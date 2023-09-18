@@ -10,6 +10,10 @@ header {
     position: relative;
 }
 
+.header__container h1 {
+    color: var(--color-primary);
+}
+
 .cta {
     margin-top: 2.5rem;
     display: flex;

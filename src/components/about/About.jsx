@@ -39,7 +39,7 @@ const About = () => {
 
                     <p>
                     I am a logic oriented critical thinker who enjoys solving puzzles of all kinds. 
-                    I"m very dedicated to my work and take great pride in the quality of what I produce. 
+                    I'm very dedicated to my work and take great pride in the quality of what I produce. 
                     I've always been passionate about technology, and am looking to continue building my skills and apply them as a full stack developer.
                     </p>
 
