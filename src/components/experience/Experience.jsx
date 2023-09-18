@@ -55,28 +55,38 @@ const Experience = () => {
                     <div className='experience__content'>
                         <article className='experience__details'>
                             <BsFillPatchCheckFill />
-                            <h4>Node.JS</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>Node.JS</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experience__details'>
                             <BsFillPatchCheckFill />
-                            <h4>MongoDB</h4>
-                            <small className='text-light'>Intermediate</small>
+                            <div>
+                                <h4>MongoDB</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
                         </article>
                         <article className='experience__details'>
                             <BsFillPatchCheckFill />
-                            <h4>Python</h4>
-                            <small className='text-light'>Intermediate</small>
+                            <div>
+                                <h4>Python</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
                         </article>
                         <article className='experience__details'>
                             <BsFillPatchCheckFill />
-                            <h4>PostgreSQL</h4>
-                            <small className='text-light'>Experienced</small>
+                            <div>
+                                <h4>PostgreSQL</h4>
+                                <small className='text-light'>Experienced</small>
+                            </div>
                         </article>
                         <article className='experience__details'>
                             <BsFillPatchCheckFill />
-                            <h4>Express</h4>
-                            <small className='text-light'>Intermediate</small>
+                            <div>
+                                <h4>Express</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
                         </article>
                     </div>
                 </div>
