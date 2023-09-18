@@ -10,3 +10,15 @@
     border-radius: 2rem;
     border: 1px solid transparent;
 }
+
+.experience__container > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
