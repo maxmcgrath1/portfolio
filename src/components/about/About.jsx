@@ -38,7 +38,9 @@ const About = () => {
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quod soluta expedita maxime fuga amet nobis deserunt cumque optio, voluptas nam dolorum quasi voluptates placeat culpa eligendi molestias praesentium asperiores!
+                    I am a logic oriented critical thinker who enjoys solving puzzles of all kinds. 
+                    I"m very dedicated to my work and take great pride in the quality of what I produce. 
+                    I've always been passionate about technology, and am looking to continue building my skills and apply them as a full stack developer.
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Contact Me</a>
