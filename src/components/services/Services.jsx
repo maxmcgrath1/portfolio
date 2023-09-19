@@ -1,5 +1,6 @@
 import React from 'react'
 import './services.css'
+import {BiCheck} from 'react-icons/bi'
 
 const Services = () => {
     return (
@@ -15,7 +16,8 @@ const Services = () => {
 
                     <ul className='service__list'>
                         <li>
-                            
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </li>
                     </ul>
                 </article>
