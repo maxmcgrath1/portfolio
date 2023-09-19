@@ -19,6 +19,80 @@ const Services = () => {
                             <BiCheck className='service__list-icon' />
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                    </ul>
+                </article>
+                {/* END OF SECTION */}
+                <article className="service">
+                    <div className="service__head">
+                        <h3>Web Development</h3>
+                    </div>
+
+                    <ul className='service__list'>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                    </ul>
+                </article>
+                {/* END OF SECTION */}
+                <article className="service">
+                    <div className="service__head">
+                        <h3>Content Creation</h3>
+                    </div>
+
+                    <ul className='service__list'>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
+                        <li>
+                            <BiCheck className='service__list-icon' />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </li>
                     </ul>
                 </article>
             </div>
