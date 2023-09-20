@@ -6,9 +6,18 @@
 
 .portfolio__item {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
+    padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 
+.portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
