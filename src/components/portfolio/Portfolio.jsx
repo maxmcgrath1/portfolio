@@ -19,7 +19,7 @@ const Portfolio = () => {
                     <h3>Blackjack</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Site</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -29,7 +29,7 @@ const Portfolio = () => {
                     <h3>Good Games</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Site</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                     <h3>fumblr</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Site</a>
                     </div>
                 </article>
                 <article className='portfolio__item'>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                     <h3>Wayfarer</h3>
                     <div className='portfolio__item-cta'>
                         <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn btn-primary' target='_blank' rel="noreferrer">Live Site</a>
                     </div>
                 </article>
             </div>
