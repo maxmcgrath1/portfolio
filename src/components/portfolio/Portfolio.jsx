@@ -11,6 +11,8 @@ const Portfolio = () => {
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
                         <h3>This is a portfolio item title</h3>
+                        <a href="https://github.com/maxmcgrath1/Blackjack" className='btn'>GitHub</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn'>Live Site</a>
                     </div>
                 </article>
             </div>
