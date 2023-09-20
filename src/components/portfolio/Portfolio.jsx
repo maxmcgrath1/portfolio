@@ -14,10 +14,11 @@ const Portfolio = () => {
             <div className="container portfolio__container">
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
-                        <h3>This is a portfolio item title</h3>
-                        <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank'>GitHub</a>
-                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank'>Live Site</a>
+                        <img src={blackjackLogo} alt="Blackjack" />
                     </div>
+                    <h3>This is a portfolio item title</h3>
+                    <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank'>GitHub</a>
+                    <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank'>Live Site</a>
                 </article>
             </div>
         </section>
