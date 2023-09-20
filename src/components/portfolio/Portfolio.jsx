@@ -17,32 +17,40 @@ const Portfolio = () => {
                         <img src={blackjackLogo} alt="Blackjack" />
                     </div>
                     <h3>Blackjack</h3>
-                    <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                    <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                    <div className='portfolio__item-cta'>
+                        <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                    </div>
                 </article>
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
                         <img src={ggLogo} alt="Blackjack" />
                     </div>
                     <h3>Good Games</h3>
-                    <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                    <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                    <div className='portfolio__item-cta'>
+                        <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                    </div>
                 </article>
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
                         <img src={fumblrLogo} alt="Blackjack" />
                     </div>
                     <h3>fumblr</h3>
-                    <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                    <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                    <div className='portfolio__item-cta'>
+                        <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                    </div>
                 </article>
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
                         <img src={wayfarerLogo} alt="Blackjack" />
                     </div>
                     <h3>Wayfarer</h3>
-                    <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-                    <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                    <div className='portfolio__item-cta'>
+                        <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank' rel="noreferrer">GitHub</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank' rel="noreferrer">Live Site</a>
+                    </div>
                 </article>
             </div>
         </section>
