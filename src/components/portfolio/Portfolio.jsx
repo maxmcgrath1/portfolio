@@ -1,5 +1,9 @@
 import React from 'react'
 import './portfolio.css'
+import blackjackLogo from '../../assets/blackjacklogo.jpg'
+import fumblrLogo from '../../assets/fumblr.png'
+import ggLogo from '../../assets/SquareSmash.png'
+import wayfarerLogo from '../../assets/wayfarerlogo.webp'
 
 const Portfolio = () => {
     return (
@@ -11,8 +15,8 @@ const Portfolio = () => {
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
                         <h3>This is a portfolio item title</h3>
-                        <a href="https://github.com/maxmcgrath1/Blackjack" className='btn'>GitHub</a>
-                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn'>Live Site</a>
+                        <a href="https://github.com/maxmcgrath1/Blackjack" className='btn' target='_blank'>GitHub</a>
+                        <a href="https://maxmcgrath1.github.io/Blackjack/" className='btn' target='_blank'>Live Site</a>
                     </div>
                 </article>
             </div>
