@@ -28,7 +28,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .container.testimonials__container {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 600px) {
+    .container.testimonials__container {
+        width: var(--container-width-sm);
+    }
+    .client__review {
+        width: var(--container-width-sm);
+    }
 }
