@@ -1,26 +1,26 @@
 import React from 'react'
 import './testimonials.css'
-import avatar from '../../assets/headshot1.png'
+import AVTR from '../../assets/headshot1.png'
 
 const data = [
     {
-        avatar: avatar,
+        avatar: AVTR,
         name: "Client McHiredme",
         review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit beatae consequuntur id omnis temporibus. Ipsam ex laboriosam corrupti eos perspiciatis vitae ullam autem nobis reiciendis? Ut placeat optio corporis!"
     },
     {
-        avatar: avatar,
+        avatar: AVTR,
         name: "Earnest Achiever",
         review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit beatae consequuntur id omnis temporibus. Ipsam ex laboriosam corrupti eos perspiciatis vitae ullam autem nobis reiciendis? Ut placeat optio corporis!"
     },
     {
-        avatar: avatar,
+        avatar: AVTR,
         name: "Tony Peluso",
         review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit beatae consequuntur id omnis temporibus. Ipsam ex laboriosam corrupti eos perspiciatis vitae ullam autem nobis reiciendis? Ut placeat optio corporis!"
     },
     {
-        avatar: avatar,
-        name: "Bryan ",
+        avatar: AVTR,
+        name: "Bryan Von Baron",
         review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit beatae consequuntur id omnis temporibus. Ipsam ex laboriosam corrupti eos perspiciatis vitae ullam autem nobis reiciendis? Ut placeat optio corporis!"
     }
 ]
@@ -39,9 +39,9 @@ const Testimonials = () => {
                             <div className="client__avatar">
                                 <img src={avatar} alt="Client Avatar" />
                             </div>
-                            <h5 className='client__name'> Client McHiredme</h5>
+                            <h5 className='client__name'>{name}</h5>
                             <small className='client__review'>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint magni necessitatibus, perspiciatis error iusto minima libero ipsa corrupti accusantium quidem? Aspernatur sunt sed officia eaque minus veniam voluptatum error earum!
+                                {review}
                             </small>
                         </article>
                         )
