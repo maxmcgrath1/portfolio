@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css'
+import {MdOutlineMail} from 'react-icons/md'
 
 const Contact = () => {
     return (
