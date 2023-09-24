@@ -8,7 +8,12 @@ const Contact = () => {
             <h2>Contact Me</h2>
 
             <div className="container contact__container">
-                
+                <div className="contact__options">
+
+                </div>
+                <form action=''>
+
+                </form>
             </div>
         </section>
     )
