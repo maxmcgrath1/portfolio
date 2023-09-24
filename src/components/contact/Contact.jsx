@@ -9,8 +9,11 @@ const Contact = () => {
 
             <div className="container contact__container">
                 <div className="contact__options">
-
+                    <article className="contact__options">
+                        
+                    </article>
                 </div>
+                {/* End of Contact Options */}
                 <form action=''>
 
                 </form>
