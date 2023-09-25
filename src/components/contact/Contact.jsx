@@ -28,7 +28,7 @@ const Contact = () => {
                         <BsWhatsapp />
                         <h4>WhatsApp</h4>
                         <h5>+123456789</h5>
-                        <a href="https://api.whatsapp.com/send?phone=123456789" target="_blank" rel="noreferrer">Email Me</a>
+                        <a href="https://api.whatsapp.com/send?phone=123456789" target="_blank" rel="noreferrer">Message Me on WhatsApp</a>
                     </article>
                 </div>
                 {/* End of Contact Options */}
