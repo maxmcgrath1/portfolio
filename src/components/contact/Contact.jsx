@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 {/* End of Contact Options */}
                 <form action=''>
-
+                    <input type="text" name="name" placeholder="Your Full Name" required />
                 </form>
             </div>
         </section>
