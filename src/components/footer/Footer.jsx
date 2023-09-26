@@ -3,7 +3,9 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer>
+            <a href="#header" className='footer__logo'>Max McGrath</a>
+        </footer>
     )
 }
 
