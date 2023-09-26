@@ -35,3 +35,9 @@
     display: inline-block;
     font-size: 0.8rem;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
