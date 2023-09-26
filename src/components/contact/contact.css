@@ -19,3 +19,8 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
+
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
