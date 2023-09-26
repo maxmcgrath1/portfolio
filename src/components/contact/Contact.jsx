@@ -1,10 +1,26 @@
-import React from 'react'
-import './contact.css'
-import {MdOutlineMail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
-import {BsWhatsapp} from 'react-icons/bs'
+import React, { useRef } from 'react';
+import './contact.css';
+import { MdOutlineMail } from 'react-icons/md';
+import { RiMessengerLine } from 'react-icons/ri';
+import { BsWhatsapp } from 'react-icons/bs';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_7bax8ke', 'template_z19dhkp', form.current, 'ECM7qM9mDggsQXtjt')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+        e.target.reset();
+    };
+
     return (
         <section id='contact'>
             <h5>Get In Tocuh</h5>
@@ -32,7 +48,7 @@ const Contact = () => {
                     </article>
                 </div>
                 {/* End of Contact Options */}
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Your Name" required />
                     <input type="email" name="email" placeholder="Your Email" required />
                     <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
