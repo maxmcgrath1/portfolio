@@ -5,3 +5,7 @@ footer {
     font-size: 0.9rem;
     margin-top: 7rem;
 }
+
+footer a {
+    color: var(--color-bg);
+}
