@@ -27,7 +27,7 @@ const data = [
         image: fumblrLogo,
         title: "fumblr",
         github: "https://github.com/maxmcgrath1/fumblr",
-        demo: "https://fumblrv2.herokuapp.com/fumblr",
+        demo: "https://fumblr-ko0z.onrender.com/fumblr",
         description: "Fumblr is a full-stack MEN app collaborative project between myself and 2 others, where we made a Tumblr copycat to pay homage to the older version of it."
     },
     {
