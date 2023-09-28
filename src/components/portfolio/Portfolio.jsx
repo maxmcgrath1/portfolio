@@ -12,7 +12,7 @@ const data = [
         title: "Blackjack",
         github: "https://github.com/maxmcgrath1/Blackjack",
         demo: "https://maxmcgrath1.github.io/Blackjack/",
-        description: "A browser based blackjack game that utilizes HTML, CSS, and Javascript."
+        description: "A browser based blackjack game that utilizes HTML, CSS, and Javascript. Designed to be played on a desktop device."
     },
     {
         id: 2,
