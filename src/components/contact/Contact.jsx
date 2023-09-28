@@ -11,7 +11,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_7bax8ke', 'template_z19dhkp', form.current, 'ECM7qM9mDggsQXtjt')
+        emailjs.sendForm('service_7rhxj9n', 'template_z19dhkp', form.current, 'L5TQFyG1hyX-cd90E')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -32,7 +32,7 @@ const Contact = () => {
                         <MdOutlineMail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>maxmcg01@gmail.com</h5>
-                        <a href="mailto:maxmcgrath@temple.edu" target="_blank" rel="noreferrer">Email Me</a>
+                        <a href="mailto:maxmcg01@gmail.com" target="_blank" rel="noreferrer">Send Me an Email</a>
                     </article>
                     {/* <article className="contact__option">
                         <RiMessengerLine className='contact__option-icon' />
