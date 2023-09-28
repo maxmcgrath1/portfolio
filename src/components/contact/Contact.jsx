@@ -17,8 +17,9 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
-
+            
         e.target.reset();
+        alert("Thank you for contacting me, your Email has been sent!")
     };
 
     return (
