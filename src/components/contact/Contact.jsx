@@ -19,7 +19,7 @@ const Contact = () => {
             });
             
         e.target.reset();
-        alert("your Email has been sent!")
+        alert("Thank you, your Email has been sent!")
     };
 
     return (
